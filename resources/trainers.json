@@ -1,0 +1,29 @@
+{
+    "Brock": {
+        "pokemon": [
+            {
+                "name": "Geodude", 
+                "level": "12",
+                "moves": ["Tackle", "Defense Curl"]
+            },
+            {
+                "name": "Onix",
+                "level": "14",
+                "moves": ["Tackle", "Screech", "Bide", "Bind"]
+            }
+        ]
+    },
+    "Misty": {
+        "pokemon": [
+            {
+                "name": "Staryu",
+                "level": "18",
+                "moves": ["Tackle", "Water Gun"]
+            },
+            {   "name": "Starmie",
+                "level": "21",
+                "moves": ["Tackle", "Water Gun", "Harden", "Bubble Beam"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Bide": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": "-",
+        "Accuracy": "-",
+        "PP": 10,
+        "Effect": "damage=user.damage_taken over 2 turns",
+        "Probability": "-"
+    },
+    "Bind": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "Effect": "damage opp over 4-5 turns",
+        "Probability": 100
+    },
+    "Bubble Beam": {
+        "Type": "water",
+        "Category": "special",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp.speed -= 1",
+        "Probability": 10
+    },
+    "Defense Curl": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": "-", 
+        "Accuracy": "-",
+        "PP": 40,
+        "Effect": "user.defense += 1",
+        "Probability": "-"
+    },
+    "Harden": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": "-", 
+        "Accuracy": "-",
+        "PP": 30,
+        "Effect": "user.defense += 1",
+        "Probability": "-"
+    },
+    "Screech": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": "-", 
+        "Accuracy": 85,
+        "PP": 40,
+        "Effect": "opp.defense -= 2",
+        "Probability": "-"
+    },
+    "Tackle": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "Effect": "-",
+        "Probability": "-"
+    },
+    "Water Gun": {
+        "Type": "water",
+        "Category": "special",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "Effect": "-",
+        "Probability": "-"
+    }
+}

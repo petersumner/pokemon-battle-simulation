@@ -1,0 +1,46 @@
+{
+    "Geodude": {
+        "Type": ["rock", "ground"],
+        "Stats": {
+            "HP": 40,
+            "Attack": 80,
+            "Defense": 100,
+            "Sp. Attack": 30,
+            "Sp. Defense": 30,
+            "Speed": 20
+        }
+    },
+    "Onix": {
+        "Type": ["rock", "ground"],
+        "Stats": {
+            "HP": 35,
+            "Attack": 45,
+            "Defense": 160,
+            "Sp. Attack": 30,
+            "Sp. Defense": 45,
+            "Speed": 70
+        }
+    },
+    "Starmie": {
+        "Type": ["water", "psychic"],
+        "Stats": {
+            "HP": 60,
+            "Attack": 75,
+            "Defense": 85,
+            "Sp. Attack": 100,
+            "Sp. Defense": 85,
+            "Speed": 115
+        }
+    },
+    "Staryu": {
+        "Type": ["water"],
+        "Stats": {
+            "HP": 30,
+            "Attack": 45,
+            "Defense": 55,
+            "Sp. Attack": 70,
+            "Sp. Defense": 55,
+            "Speed": 85
+        }
+    }
+}
