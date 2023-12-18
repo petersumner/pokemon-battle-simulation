@@ -1,11 +1,11 @@
-TODO
-status moves/effects
-stat changing
-dig/fly
-lingering effects (bind, fire spin, etc)
-struggle
-high crit ratio
-accuracy raise/lower
-evasiveness
-reflect/light screen
-psywave
+TODO<br />
+status moves/effects<br />
+stat changing<br />
+dig/fly<br />
+lingering effects (bind, fire spin, etc)<br />
+struggle<br />
+high crit ratio<br />
+accuracy raise/lower<br />
+evasiveness<br />
+reflect/light screen<br />
+psywave<br />
