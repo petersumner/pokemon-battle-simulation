@@ -12,4 +12,7 @@ if __name__ == '__main__':
     
     
     battle = Battle("Brock", "Misty")
-    battle.battle()
+    #battle.battle()
+    
+    battle2 = Battle("Koga", "Sabrina")
+    battle2.battle()

@@ -9,7 +9,6 @@ class Pokemon():
         self.name = name
         self.level = int(level)
         self.status = 'alive'
-        self.status = ''
 
         with open('resources/pokemon.json') as f:
             self.pokemon_info = json.load(f)
@@ -64,6 +63,7 @@ class Pokemon():
             defense = target.spdefense
         else:
             return 0
+        print(move)
         damage = ((2*self.level/5 + 2)*power*attack/defense/50 + 2)
         #type effectiveness
         for type in target.type:

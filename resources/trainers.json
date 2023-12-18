@@ -3,12 +3,12 @@
         "pokemon": [
             {
                 "name": "Geodude", 
-                "level": "12",
+                "level": 12,
                 "moves": ["Tackle", "Defense Curl"]
             },
             {
                 "name": "Onix",
-                "level": "14",
+                "level": 14,
                 "moves": ["Tackle", "Screech", "Bide", "Bind"]
             }
         ]
@@ -17,12 +17,151 @@
         "pokemon": [
             {
                 "name": "Staryu",
-                "level": "18",
+                "level": 18,
                 "moves": ["Tackle", "Water Gun"]
             },
             {   "name": "Starmie",
-                "level": "21",
+                "level": 21,
                 "moves": ["Tackle", "Water Gun", "Harden", "Bubble Beam"]
+            }
+        ]
+    },
+    "Lt. Surge": {
+        "pokemon": [
+            {
+                "name": "Voltorb",
+                "level": 21,
+                "moves": ["Tackle", "Screech", "Sonic Boom"]
+            },
+            {
+                "name": "Pikachu",
+                "level": 18,
+                "moves": ["Thunder Shock", "Thunder Wave", "Growl", "Quick Attack"]
+            },
+            {
+                "name": "Raichu",
+                "level": 24,
+                "moves": ["Thunderbolt", "Thunder Shock", "Thunder Wave", "Growl"]
+            }
+        ]
+    },
+    "Erika": {
+        "pokemon": [
+            {
+                "name": "Victreebel",
+                "level": 29,
+                "moves": ["Wrap", "Poison Powder", "Sleep Powder", "Razor Leaf"]
+            },
+            {
+                "name": "Tangela",
+                "level": 24,
+                "moves": ["Bind", "Constrict"]
+            },
+            {
+                "name": "Vileplume",
+                "level": 29,
+                "moves": ["Poison Powder", "Mega Drain", "Sleep Powder", "Petal Dance"]
+            }
+        ]
+    },
+    "Koga": {
+        "pokemon": [
+            {
+                "name": "Koffing",
+                "level": 37,
+                "moves": ["Tackle", "Smog", "Sludge", "Smokescreen"]
+            },
+            {
+                "name": "Muk",
+                "level": 39,
+                "moves": ["Disable", "Poison Gas", "Minimize", "Sludge"]
+            },
+            {
+                "name": "Koffing",
+                "level": 37,
+                "moves": ["Tackle", "Smog", "Sludge", "Smokescreen"]
+            },
+            {
+                "name": "Weezing",
+                "level": 43,
+                "moves": ["Smog", "Sludge", "Toxic", "Self-Destruct"]
+            }
+        ]
+    },
+    "Sabrina": {
+        "pokemon": [
+            {
+                "name": "Kadabra",
+                "level": 38,
+                "moves": ["Disable", "Psybeam", "Recover", "Psychic"]
+            },
+            {
+                "name": "Mr. Mime",
+                "level": 37,
+                "moves": ["Confusion", "Barrier", "Light Screen", "Double Slap"]
+            },
+            {
+                "name": "Venomoth",
+                "level": 38,
+                "moves": ["Poison Powder", "Leech Life", "Stun Spore", "Psybeam"]
+            },
+            {
+                "name": "Alakazam",
+                "level": 43,
+                "moves": ["Psybeam", "Recover", "Psywave", "Reflect"]
+            }
+        ]
+    },
+    "Blaine": {
+        "pokemon": [
+            {
+                "name": "Growlithe",
+                "level": 42,
+                "moves": ["Ember", "Leer", "Take Down", "Agility"]
+            },
+            {
+                "name": "Ponyta",
+                "level": 40,
+                "moves": ["Tail Whip", "Stomp", "Growl", "Fire Spin"]
+            },
+            {
+                "name": "Rapidash",
+                "level": 42,
+                "moves": ["Tail Whip", "Stomp", "Growl", "Fire Spin"]
+            },
+            {
+                "name": "Arcanine",
+                "level": 43,
+                "moves": ["Roar", "Ember", "Take Down", "Fire Blast"]
+            }
+        ]
+    },
+    "Giovanni": {
+        "pokemon": [
+            {
+                "name": "Rhyhorn",
+                "level": 45,
+                "moves": ["Stomp", "Tail Whip", "Fury Attack", "Horn Attack"]
+            },
+            {
+                "name": "Dugtrio",
+                "level": 42,
+                "moves": ["Growl", "Dig", "Sand Attack", "Slash"]
+            },
+            {
+                "name": "Nidoqueen",
+                "level": 44,
+                "moves": ["Scratch", "Tail Whip", "Poison Sting", "Body Slam"]
+            },
+            {
+                "name": "Nidoking",
+                "level": 45,
+                "moves": ["Tackle", "Horn Attack", "Poison Sting", "Thrash"]
+            },
+            {
+                "name": "Rhydon",
+                "level": 50,
+                "moves": ["Stomp", "Tail Whip", "Fissure", "Horn Drill"]
             }
         ]
     }

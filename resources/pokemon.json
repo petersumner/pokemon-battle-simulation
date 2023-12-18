@@ -1,4 +1,15 @@
 {
+    "Alakazam": {
+        "Type": ["psychic"],
+        "Stats": {
+            "HP": 55,
+            "Attack": 50,
+            "Defense": 45,
+            "Sp. Attack": 135,
+            "Sp. Defense": 95,
+            "Speed": 120
+        }
+    },
     "Geodude": {
         "Type": ["rock", "ground"],
         "Stats": {
@@ -8,6 +19,50 @@
             "Sp. Attack": 30,
             "Sp. Defense": 30,
             "Speed": 20
+        }
+    },
+    "Kadabra": {
+        "Type": ["psychic"],
+        "Stats": {
+            "HP": 40,
+            "Attack": 35,
+            "Defense": 30,
+            "Sp. Attack": 120,
+            "Sp. Defense": 70,
+            "Speed": 105
+        }
+    },
+    "Koffing": {
+        "Type": ["poison"],
+        "Stats": {
+            "HP": 40,
+            "Attack": 65,
+            "Defense": 95,
+            "Sp. Attack": 60,
+            "Sp. Defense": 45,
+            "Speed": 35
+        }
+    },
+    "Mr. Mime": {
+        "Type": ["psychic", "fairy"],
+        "Stats": {
+            "HP": 50,
+            "Attack": 65,
+            "Defense": 65,
+            "Sp. Attack": 90,
+            "Sp. Defense": 90,
+            "Speed": 100
+        }
+    },
+    "Muk": {
+        "Type": ["poison", "dark"],
+        "Stats": {
+            "HP": 105,
+            "Attack": 105,
+            "Defense": 75,
+            "Sp. Attack": 65,
+            "Sp. Defense": 100,
+            "Speed": 50
         }
     },
     "Onix": {
@@ -41,6 +96,61 @@
             "Sp. Attack": 70,
             "Sp. Defense": 55,
             "Speed": 85
+        }
+    },
+    "Tangela": {
+        "Type": ["grass"],
+        "Stats": {
+            "HP": 65,
+            "Attack": 55,
+            "Defense": 115,
+            "Sp. Attack": 100,
+            "Sp. Defense": 40,
+            "Speed": 60
+        }
+    },
+    "Venomoth": {
+        "Type": ["bug", "poison"],
+        "Stats": {
+            "HP": 70,
+            "Attack": 65,
+            "Defense": 60,
+            "Sp. Attack": 90,
+            "Sp. Defense": 75,
+            "Speed": 90
+        }
+    },
+    "Victreebel": {
+        "Type": ["grass", "poison"],
+        "Stats": {
+            "HP": 80,
+            "Attack": 105,
+            "Defense": 65,
+            "Sp. Attack": 100,
+            "Sp. Defense": 70,
+            "Speed": 70
+        }
+    },
+    "Vileplume": {
+        "Type": ["grass", "poison"],
+        "Stats": {
+            "HP": 75,
+            "Attack": 80,
+            "Defense": 85,
+            "Sp. Attack": 110,
+            "Sp. Defense": 90,
+            "Speed": 50
+        }
+    },
+    "Weezing": {
+        "Type": ["poison"],
+        "Stats": {
+            "HP": 65,
+            "Attack": 90,
+            "Defense": 120,
+            "Sp. Attack": 85,
+            "Sp. Defense": 70,
+            "Speed": 60
         }
     }
 }

@@ -1,12 +1,21 @@
 {
+    "Barrier": {
+        "Type": "psychic",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": null,
+        "PP": 20,
+        "Effect": "user.defense += 2",
+        "Probability": null
+    },
     "Bide": {
         "Type": "normal",
         "Category": "physical",
-        "Power": "-",
-        "Accuracy": "-",
+        "Power": null,
+        "Accuracy": null,
         "PP": 10,
         "Effect": "damage=user.damage_taken over 2 turns",
-        "Probability": "-"
+        "Probability": null
     },
     "Bind": {
         "Type": "normal",
@@ -14,8 +23,8 @@
         "Power": 15,
         "Accuracy": 85,
         "PP": 20,
-        "Effect": "damage opp over 4-5 turns",
-        "Probability": 100
+        "Effect": "traps opp, damage opp over 4-5 turns",
+        "Probability": null
     },
     "Bubble Beam": {
         "Type": "water",
@@ -26,32 +35,266 @@
         "Effect": "opp.speed -= 1",
         "Probability": 10
     },
+    "Confusion": {
+        "Type": "psychic",
+        "Category": "special",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "Effect": "opp.confuse",
+        "Probability": 10
+    },
+    "Constrict": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 10,
+        "Accuracy": 100,
+        "PP": 35,
+        "Effect": "opp.speed -= 1",
+        "Probability": 10
+    },
     "Defense Curl": {
         "Type": "normal",
         "Category": "status",
-        "Power": "-", 
-        "Accuracy": "-",
+        "Power": null, 
+        "Accuracy": null,
         "PP": 40,
         "Effect": "user.defense += 1",
-        "Probability": "-"
+        "Probability": null
+    },
+    "Disable": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp can't use last attack for a few turns",
+        "Probability": null
+    },
+    "Double Slap": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 15, 
+        "Accuracy": 85,
+        "PP": 10,
+        "Effect": "hits 2-5 times",
+        "Probability": null
+    },
+    "Growl": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": 100,
+        "PP": 40,
+        "Effect": "opp.attack -= 1",
+        "Probability": null
     },
     "Harden": {
         "Type": "normal",
         "Category": "status",
-        "Power": "-", 
-        "Accuracy": "-",
+        "Power": null, 
+        "Accuracy": null,
         "PP": 30,
         "Effect": "user.defense += 1",
-        "Probability": "-"
+        "Probability": null
+    },
+    "Leech Life": {
+        "Type": "bug",
+        "Category": "physical",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 10,
+        "Effect": "user.hp += damage",
+        "Probability": null
+    },
+    "Light Screen": {
+        "Type": "psychic",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": null,
+        "PP": 30,
+        "Effect": "sp damage * .5 for 5 turns",
+        "Probability": null
+    },
+    "Mega Drain": {
+        "Type": "grass",
+        "Category": "special",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 15,
+        "Effect": "user.hp += damage",
+        "Probability": null
+    },
+    "Minimize": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": null,
+        "PP": 10,
+        "Effect": "user.evasiveness += 1",
+        "Probability": null
+    },
+    "Petal Dance": {
+        "Type": "grass",
+        "Category": "special",
+        "Power": 120,
+        "Accuracy": 100,
+        "PP": 10,
+        "Effect": "user attacks 2-3 turns then user.confuse",
+        "Probability": null
+    },
+    "Poison Gas": {
+        "Type": "poison",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 90,
+        "PP": 40,
+        "Effect": "opp.poison",
+        "Probability": null
+    },
+    "Poison Powder": {
+        "Type": "poison",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 75,
+        "PP": 35,
+        "Effect": "opp.poison",
+        "Probability": null
+    },
+    "Psybeam": {
+        "Type": "psychic",
+        "Category": "special",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp.confuse",
+        "Probability": 10
+    },
+    "Psychic": {
+        "Type": "psychic",
+        "Category": "special",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 10,
+        "Effect": "opp.spdefense-=1",
+        "Probability": 10
+    },
+    "Psywave": {
+        "Type": "psychic",
+        "Category": "special",
+        "Power": null,
+        "Accuracy": 100,
+        "PP": 15,
+        "Effect": "damage = 50-150% of user.level",
+        "Probability": null
+    },
+    "Quick Attack": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "Effect": "user attacks first",
+        "Probability": null
+    },
+    "Razor Leaf": {
+        "Type": "grass",
+        "Category": "physical",
+        "Power": 55,
+        "Accuracy": 95,
+        "PP": 25,
+        "Effect": "high crit ratio",
+        "Probability": null
+    },
+    "Recover": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": null,
+        "PP": 5,
+        "Effect": "user+=hp/2",
+        "Probability": null
+    },
+    "Reflect": {
+        "Type": "psychic",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": null,
+        "PP": 20,
+        "Effect": "ph damage * .5 for 5 turns",
+        "Probability": null
     },
     "Screech": {
         "Type": "normal",
         "Category": "status",
-        "Power": "-", 
+        "Power": null, 
         "Accuracy": 85,
         "PP": 40,
         "Effect": "opp.defense -= 2",
-        "Probability": "-"
+        "Probability": null
+    },
+    "Self-Destruct": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 200,
+        "Accuracy": 100,
+        "PP": 5,
+        "Effect": "user faints",
+        "Probability": null
+    },
+    "Sleep Powder": {
+        "Type": "grass",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 75,
+        "PP": 15,
+        "Effect": "opp.sleep",
+        "Probability": null
+    },
+    "Sludge": {
+        "Type": "poison",
+        "Category": "special",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp.poison",
+        "Probability": 30
+    },
+    "Smog": {
+        "Type": "poison",
+        "Category": "special",
+        "Power": 30,
+        "Accuracy": 70,
+        "PP": 20,
+        "Effect": "opp.poison",
+        "Probability": 40
+    },
+    "Smokescreen": {
+        "Type": "poison",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp.accuracy -= 1",
+        "Probability": null
+    },
+    "Sonic Boom": {
+        "Type": "normal",
+        "Category": "special",
+        "Power": null,
+        "Accuracy": 90,
+        "PP": 20,
+        "Effect": "always does 20 damage",
+        "Probability": null
+    },
+    "Stun Spore": {
+        "Type": "grass",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 75,
+        "PP": 30,
+        "Effect": "opp.paralyze",
+        "Probability": null
     },
     "Tackle": {
         "Type": "normal",
@@ -59,8 +302,44 @@
         "Power": 40,
         "Accuracy": 100,
         "PP": 35,
-        "Effect": "-",
-        "Probability": "-"
+        "Effect": null,
+        "Probability": null
+    },
+    "Thunder Shock": {
+        "Type": "electric",
+        "Category": "special",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "Effect": "opp.paralyze",
+        "Probability": 10
+    },
+    "Thunder Wave": {
+        "Type": "electric",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp.paralyze",
+        "Probability": null
+    },
+    "Thunderbolt": {
+        "Type": "electric",
+        "Category": "special",
+        "Power": 90,
+        "Accuracy": 100,
+        "PP": 15,
+        "Effect": "opp.paralyze",
+        "Probability": 10
+    },
+    "Toxic": {
+        "Type": "poison",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 90,
+        "PP": 10,
+        "Effect": "opp.badlypoison",
+        "Probability": null
     },
     "Water Gun": {
         "Type": "water",
@@ -68,7 +347,16 @@
         "Power": 40,
         "Accuracy": 100,
         "PP": 25,
-        "Effect": "-",
-        "Probability": "-"
+        "Effect": null,
+        "Probability": null
+    },
+    "Wrap": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "Effect": "traps opp, damage opp over 4-5 turns",
+        "Probability": null
     }
 }
