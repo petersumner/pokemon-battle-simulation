@@ -1,4 +1,13 @@
 {
+    "Agility": {
+        "Type": "psychic",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": null,
+        "PP": 30,
+        "Effect": "user.speed += 2",
+        "Probability": null
+    },
     "Barrier": {
         "Type": "psychic",
         "Category": "status",
@@ -25,6 +34,15 @@
         "PP": 20,
         "Effect": "traps opp, damage opp over 4-5 turns",
         "Probability": null
+    },
+    "Body Slam": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 85,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp.paralyze",
+        "Probability": 30
     },
     "Bubble Beam": {
         "Type": "water",
@@ -62,6 +80,15 @@
         "Effect": "user.defense += 1",
         "Probability": null
     },
+    "Dig": {
+        "Type": "ground",
+        "Category": "physical",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "user.underground, attack next turn",
+        "Probability": 10
+    },
     "Disable": {
         "Type": "normal",
         "Category": "status",
@@ -79,6 +106,51 @@
         "PP": 10,
         "Effect": "hits 2-5 times",
         "Probability": null
+    },
+    "Ember": {
+        "Type": "fire",
+        "Category": "special",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "Effect": "opp.burn",
+        "Probability": 10
+    },
+    "Fire Blast": {
+        "Type": "fire",
+        "Category": "special",
+        "Power": 110,
+        "Accuracy": 85,
+        "PP": 5,
+        "Effect": "opp.burn",
+        "Probability": 10
+    },
+    "Fire Spin": {
+        "Type": "fire",
+        "Category": "special",
+        "Power": 35,
+        "Accuracy": 85,
+        "PP": 15,
+        "Effect": "traps opp, damage opp over 4-5 turns",
+        "Probability": null
+    },
+    "Fissure": {
+        "Type": "ground",
+        "Category": "physical",
+        "Power": null,
+        "Accuracy": 30,
+        "PP": 5,
+        "Effect": "one-hit-KO",
+        "Probability": null
+    },
+    "Fury Attack": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "Effect": "hits 2-5 times",
+        "Probability": 10
     },
     "Growl": {
         "Type": "normal",
@@ -98,6 +170,24 @@
         "Effect": "user.defense += 1",
         "Probability": null
     },
+    "Horn Attack": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 25,
+        "Effect": null,
+        "Probability": 10
+    },
+    "Horn Drill": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": null,
+        "Accuracy": 30,
+        "PP": 5,
+        "Effect": "one-hit-KO",
+        "Probability": null
+    },
     "Leech Life": {
         "Type": "bug",
         "Category": "physical",
@@ -105,6 +195,15 @@
         "Accuracy": 100,
         "PP": 10,
         "Effect": "user.hp += damage",
+        "Probability": null
+    },
+    "Leer": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": 100,
+        "PP": 30,
+        "Effect": "opp.defense -= 1",
         "Probability": null
     },
     "Light Screen": {
@@ -160,6 +259,15 @@
         "PP": 35,
         "Effect": "opp.poison",
         "Probability": null
+    },
+    "Poison Sting": {
+        "Type": "poison",
+        "Category": "physical",
+        "Power": 15,
+        "Accuracy": 100,
+        "PP": 35,
+        "Effect": "opp.poison",
+        "Probability": 30
     },
     "Psybeam": {
         "Type": "psychic",
@@ -224,6 +332,33 @@
         "Effect": "ph damage * .5 for 5 turns",
         "Probability": null
     },
+    "Roar": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": null,
+        "PP": 20,
+        "Effect": "opp.switch",
+        "Probability": null
+    },
+    "Sand Attack": {
+        "Type": "ground",
+        "Category": "status",
+        "Power": null,
+        "Accuracy": 100,
+        "PP": 15,
+        "Effect": "opp.accuracy -= 1",
+        "Probability": 10
+    },
+    "Scratch": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "Effect": null,
+        "Probability": null
+    },
     "Screech": {
         "Type": "normal",
         "Category": "status",
@@ -240,6 +375,15 @@
         "Accuracy": 100,
         "PP": 5,
         "Effect": "user faints",
+        "Probability": null
+    },
+    "Slash": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 70,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": null,
         "Probability": null
     },
     "Sleep Powder": {
@@ -287,6 +431,15 @@
         "Effect": "always does 20 damage",
         "Probability": null
     },
+    "Stomp": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "Effect": "opp.flinch",
+        "Probability": 30
+    },
     "Stun Spore": {
         "Type": "grass",
         "Category": "status",
@@ -303,6 +456,33 @@
         "Accuracy": 100,
         "PP": 35,
         "Effect": null,
+        "Probability": null
+    },
+    "Tail Whip": {
+        "Type": "normal",
+        "Category": "status",
+        "Power": null, 
+        "Accuracy": 100,
+        "PP": 30,
+        "Effect": "opp.defense -= 1",
+        "Probability": null
+    },
+    "Take Down": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 90,
+        "Accuracy": 85,
+        "PP": 20,
+        "Effect": "user.recoil",
+        "Probability": null
+    },
+    "Thrash": {
+        "Type": "normal",
+        "Category": "physical",
+        "Power": 120,
+        "Accuracy": 100,
+        "PP": 10,
+        "Effect": "user attacks 2-3 turns then user.confuse",
         "Probability": null
     },
     "Thunder Shock": {

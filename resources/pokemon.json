@@ -10,6 +10,28 @@
             "Speed": 120
         }
     },
+    "Arcanine": {
+        "Type": ["fire"],
+        "Stats": {
+            "HP": 95,
+            "Attack": 115,
+            "Defense": 80,
+            "Sp. Attack": 95,
+            "Sp. Defense": 80,
+            "Speed": 90
+        }
+    },
+    "Dugtrio": {
+        "Type": ["ground"],
+        "Stats": {
+            "HP": 35,
+            "Attack": 100,
+            "Defense": 60,
+            "Sp. Attack": 50,
+            "Sp. Defense": 70,
+            "Speed": 110
+        }
+    },
     "Geodude": {
         "Type": ["rock", "ground"],
         "Stats": {
@@ -19,6 +41,17 @@
             "Sp. Attack": 30,
             "Sp. Defense": 30,
             "Speed": 20
+        }
+    },
+    "Growlithe": {
+        "Type": ["fire"],
+        "Stats": {
+            "HP": 60,
+            "Attack": 75,
+            "Defense": 45,
+            "Sp. Attack": 65,
+            "Sp. Defense": 50,
+            "Speed": 55
         }
     },
     "Kadabra": {
@@ -65,6 +98,28 @@
             "Speed": 50
         }
     },
+    "Nidoqueen": {
+        "Type": ["poison", "ground"],
+        "Stats": {
+            "HP": 90,
+            "Attack": 92,
+            "Defense": 87,
+            "Sp. Attack": 75,
+            "Sp. Defense": 85,
+            "Speed": 76
+        }
+    },
+    "Nidoking": {
+        "Type": ["poison", "ground"],
+        "Stats": {
+            "HP": 81,
+            "Attack": 102,
+            "Defense": 77,
+            "Sp. Attack": 85,
+            "Sp. Defense": 75,
+            "Speed": 85
+        }
+    },
     "Onix": {
         "Type": ["rock", "ground"],
         "Stats": {
@@ -74,6 +129,50 @@
             "Sp. Attack": 30,
             "Sp. Defense": 45,
             "Speed": 70
+        }
+    },
+    "Ponyta": {
+        "Type": ["fire"],
+        "Stats": {
+            "HP": 50,
+            "Attack": 85,
+            "Defense": 55,
+            "Sp. Attack": 65,
+            "Sp. Defense": 65,
+            "Speed": 90
+        }
+    },
+    "Rapidash": {
+        "Type": ["fire"],
+        "Stats": {
+            "HP": 65,
+            "Attack": 100,
+            "Defense": 70,
+            "Sp. Attack": 80,
+            "Sp. Defense": 80,
+            "Speed": 105
+        }
+    },
+    "Rhydon": {
+        "Type": ["ground", "rock"],
+        "Stats": {
+            "HP": 105,
+            "Attack": 130,
+            "Defense": 120,
+            "Sp. Attack": 45,
+            "Sp. Defense": 45,
+            "Speed": 40
+        }
+    },
+    "Rhyhorn": {
+        "Type": ["ground", "rock"],
+        "Stats": {
+            "HP": 80,
+            "Attack": 85,
+            "Defense": 95,
+            "Sp. Attack": 30,
+            "Sp. Defense": 30,
+            "Speed": 25
         }
     },
     "Starmie": {
