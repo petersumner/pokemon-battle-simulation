@@ -2,166 +2,194 @@
     "Brock": {
         "pokemon": [
             {
-                "name": "Geodude", 
+                "id": 74,
+                "name": "geodude", 
                 "level": 12,
-                "moves": ["Tackle", "Defense Curl"]
+                "moves": ["tackle", "defense-curl"]
             },
             {
-                "name": "Onix",
+                "id": 95,
+                "name": "onix",
                 "level": 14,
-                "moves": ["Tackle", "Screech", "Bide", "Bind"]
+                "moves": ["tackle", "screech", "bide", "bind"]
             }
         ]
     },
     "Misty": {
         "pokemon": [
             {
-                "name": "Staryu",
+                "id": 120,
+                "name": "staryu",
                 "level": 18,
-                "moves": ["Tackle", "Water Gun"]
+                "moves": ["tackle", "water-gun"]
             },
-            {   "name": "Starmie",
+            {   
+                "id": 121,
+                "name": "starmie",
                 "level": 21,
-                "moves": ["Tackle", "Water Gun", "Harden", "Bubble Beam"]
+                "moves": ["tackle", "water-gun", "harden", "bubble-beam"]
             }
         ]
     },
     "Lt. Surge": {
         "pokemon": [
             {
-                "name": "Voltorb",
+                "id": 100,
+                "name": "voltorb",
                 "level": 21,
-                "moves": ["Tackle", "Screech", "Sonic Boom"]
+                "moves": ["tackle", "screech", "sonic-boom"]
             },
             {
-                "name": "Pikachu",
+                "id": 25,
+                "name": "pikachu",
                 "level": 18,
-                "moves": ["Thunder Shock", "Thunder Wave", "Growl", "Quick Attack"]
+                "moves": ["thunder-shock", "thunder-wave", "growl", "quick-attack"]
             },
             {
-                "name": "Raichu",
+                "id": 26,
+                "name": "raichu",
                 "level": 24,
-                "moves": ["Thunderbolt", "Thunder Shock", "Thunder Wave", "Growl"]
+                "moves": ["thunderbolt", "thunder-shock", "thunder-wave", "growl"]
             }
         ]
     },
     "Erika": {
         "pokemon": [
             {
-                "name": "Victreebel",
+                "id": 71,
+                "name": "victreebel",
                 "level": 29,
-                "moves": ["Wrap", "Poison Powder", "Sleep Powder", "Razor Leaf"]
+                "moves": ["wrap", "poison-powder", "sleep-powder", "razor-leaf"]
             },
             {
-                "name": "Tangela",
+                "id": 114,
+                "name": "tangela",
                 "level": 24,
-                "moves": ["Bind", "Constrict"]
+                "moves": ["bind", "constrict"]
             },
             {
-                "name": "Vileplume",
+                "id": 45,
+                "name": "vileplume",
                 "level": 29,
-                "moves": ["Poison Powder", "Mega Drain", "Sleep Powder", "Petal Dance"]
+                "moves": ["poison-powder", "mega-drain", "sleep-powder", "petal-dance"]
             }
         ]
     },
     "Koga": {
         "pokemon": [
             {
-                "name": "Koffing",
+                "id": 109,
+                "name": "koffing",
                 "level": 37,
-                "moves": ["Tackle", "Smog", "Sludge", "Smokescreen"]
+                "moves": ["tackle", "smog", "sludge", "smokescreen"]
             },
             {
-                "name": "Muk",
+                "id": 89,
+                "name": "muk",
                 "level": 39,
-                "moves": ["Disable", "Poison Gas", "Minimize", "Sludge"]
+                "moves": ["disable", "poison-gas", "minimize", "sludge"]
             },
             {
-                "name": "Koffing",
+                "id": 109,
+                "name": "koffing",
                 "level": 37,
-                "moves": ["Tackle", "Smog", "Sludge", "Smokescreen"]
+                "moves": ["tackle", "smog", "sludge", "smokescreen"]
             },
             {
-                "name": "Weezing",
+                "id": 110,
+                "name": "weezing",
                 "level": 43,
-                "moves": ["Smog", "Sludge", "Toxic", "Self-Destruct"]
+                "moves": ["smog", "sludge", "toxic", "self-destruct"]
             }
         ]
     },
     "Sabrina": {
         "pokemon": [
             {
-                "name": "Kadabra",
+                "id": 64,
+                "name": "kadabra",
                 "level": 38,
-                "moves": ["Disable", "Psybeam", "Recover", "Psychic"]
+                "moves": ["disable", "psybeam", "recover", "psychic"]
             },
             {
-                "name": "Mr. Mime",
+                "id": 122,
+                "name": "mr-mime",
                 "level": 37,
-                "moves": ["Confusion", "Barrier", "Light Screen", "Double Slap"]
+                "moves": ["confusion", "barrier", "light-screen", "double-slap"]
             },
             {
-                "name": "Venomoth",
+                "id": 49,
+                "name": "venomoth",
                 "level": 38,
-                "moves": ["Poison Powder", "Leech Life", "Stun Spore", "Psybeam"]
+                "moves": ["poison-powder", "leech-life", "stun-spore", "psybeam"]
             },
             {
-                "name": "Alakazam",
+                "id": 65,
+                "name": "alakazam",
                 "level": 43,
-                "moves": ["Psybeam", "Recover", "Psywave", "Reflect"]
+                "moves": ["psybeam", "recover", "psywave", "reflect"]
             }
         ]
     },
     "Blaine": {
         "pokemon": [
             {
-                "name": "Growlithe",
+                "id": 58,
+                "name": "growlithe",
                 "level": 42,
-                "moves": ["Ember", "Leer", "Take Down", "Agility"]
+                "moves": ["ember", "leer", "take-down", "agility"]
             },
             {
-                "name": "Ponyta",
+                "id": 77,
+                "name": "ponyta",
                 "level": 40,
-                "moves": ["Tail Whip", "Stomp", "Growl", "Fire Spin"]
+                "moves": ["tail-whip", "stomp", "growl", "fire-spin"]
             },
             {
-                "name": "Rapidash",
+                "id": 78,
+                "name": "rapidash",
                 "level": 42,
-                "moves": ["Tail Whip", "Stomp", "Growl", "Fire Spin"]
+                "moves": ["tail-whip", "stomp", "growl", "fire-spin"]
             },
             {
-                "name": "Arcanine",
+                "id": 59,
+                "name": "arcanine",
                 "level": 43,
-                "moves": ["Roar", "Ember", "Take Down", "Fire Blast"]
+                "moves": ["roar", "ember", "take-down", "fire-blast"]
             }
         ]
     },
     "Giovanni": {
         "pokemon": [
             {
-                "name": "Rhyhorn",
+                "id": 111,
+                "name": "rhyhorn",
                 "level": 45,
-                "moves": ["Stomp", "Tail Whip", "Fury Attack", "Horn Attack"]
+                "moves": ["stomp", "tail-whip", "fury-attack", "horn-attack"]
             },
             {
-                "name": "Dugtrio",
+                "id": 51,
+                "name": "dugtrio",
                 "level": 42,
-                "moves": ["Growl", "Dig", "Sand Attack", "Slash"]
+                "moves": ["growl", "dig", "sand-attack", "slash"]
             },
             {
-                "name": "Nidoqueen",
+                "id": 31,
+                "name": "nidoqueen",
                 "level": 44,
-                "moves": ["Scratch", "Tail Whip", "Poison Sting", "Body Slam"]
+                "moves": ["scratch", "tail-whip", "poison-sting", "body-slam"]
             },
             {
-                "name": "Nidoking",
+                "id": 34,
+                "name": "nidoking",
                 "level": 45,
-                "moves": ["Tackle", "Horn Attack", "Poison Sting", "Thrash"]
+                "moves": ["tackle", "horn-attack", "poison-sting", "thrash"]
             },
             {
-                "name": "Rhydon",
+                "id": 112,
+                "name": "rhydon",
                 "level": 50,
-                "moves": ["Stomp", "Tail Whip", "Fissure", "Horn Drill"]
+                "moves": ["stomp", "tail-whip", "fissure", "horn-drill"]
             }
         ]
     }

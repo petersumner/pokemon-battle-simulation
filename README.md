@@ -9,3 +9,4 @@ accuracy raise/lower<br />
 evasiveness<br />
 reflect/light screen<br />
 psywave<br />
+abilities
